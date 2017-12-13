@@ -2,21 +2,26 @@ body{
     background-color: rgba(32, 31, 31, 0.815);
 }
 
-.quote{
-background-color: rgba(128, 128, 128, 0.589);
-border-style: solid;
-border-radius: 50px;
-min-height: 200px;
-}
 
-.title{
+.toptitle{
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-size: 30px;    
+    font-weight: bold;
+    color:black;
 }
 
 h1{
     text-align:center;
+    font-size: 60px;
+    
 }
+
+.quote{
+background-color: rgba(128, 128, 128, 0.432);
+border-style: solid;
+border-radius: 60px;
+min-height: 200px;
+}
+
 
 
 #quote{
@@ -25,13 +30,11 @@ h1{
     padding: 20px;
     text-align: center;
     font-weight: bold;
-    color: black;
-    
+    color: black;  
     
 }
 
 #author{
-
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 20px;
     text-align: center;
@@ -39,7 +42,6 @@ h1{
 }
 
 #newQuote{
-
     border-radius: 50px;
     background-color: rgba(53, 48, 48, 0.815);
     border-style: solid;
